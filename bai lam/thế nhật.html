@@ -3,81 +3,364 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danh sách thành viên tổ 2</title>
+    <title>Lịch hoạt động CLB Thể thao</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f4f4f4;
+        table {
+            width: 100%;
+            border-collapse: collapse;
         }
-        h2 {
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
             text-align: center;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            background: white;
-            margin: 10px 0;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-        }
-        a {
-            text-decoration: none;
-            color: blue;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .banner {
-            background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
-            background-size: cover;
-            padding-top: 12rem;
-            padding-bottom: 12rem;
-            text-align: center !important;
-            color: darkred !important;
-        }
-        .slogan {  
-            background-color: rgb(248, 249, 250) !important;
-            text-align: center !important;
-            width: 100%;
-            padding-right: 0.5rem;
-            padding-left: 3rem;
-            padding-top: 7rem;
-            padding-bottom: 7rem;
-        }
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: -1;
-            max-width: 100%;
-            padding-right: 3rem;
-            padding-left: 3rem;
-        }
-        .block_3 {
-            flex: 00 auto;
-            width: 33.33333333%;
+        th {
+            background-color: #f2f2f2;
         }
     </style>
 </head>
 <body>
-    <h2>Danh sách thành viên tổ 2</h2>
-    <ul>
-        <li>1. Phạm Đình Dũng - <a href="https://example.com/nguyenvana" target="_blank">Bài tập</a></li>
-        <li>2. Đào Thị Quỳnh Như - <a href="https://example.com/tranthib" target="_blank">Bài tập</a></li>
-        <li>3. Đoàn Khả Ái Chi - <a href="https://example.com/levanc" target="_blank">Bài tập</a></li>
-        <li>4. Nguyễn Nhật Anh - <a href="https://example.com/phamthid" target="_blank">Bài tập</a></li>
-        <li>5. Nông Thị Trà My  - <a href="https://example.com/hoangvane" target="_blank">Bài tập</a></li>
-        <li>6. Nguyễn Thị Trúc Giang - <a href="https://example.com/dangthif" target="_blank">Bài tập</a></li>
-        <li>7. Nguyễn Tuấn Tú - <a href="https://example.com/vuvang" target="_blank">Bài tập</a></li>
-        <li>8. Đoàn Hà Phương- <a href="https://example.com/buithih" target="_blank">Bài tập</a></li>
-        <li>9. Ngô Thế Nhật <a href="https://example.com/dovani" target="_blank">Bài tập</a></li>
-        <li>10. Nguyễn Trần Song Giang - <a href="https://example.com/nguyenthik" target="_blank">Bài tập</a></li>
-        <li>11. Lê Trung Kiệt - <a href="https://example.com/luongvanl" target="_blank">Bài tập</a></li>
-        <li>12. Đỗ Lê Tường Vy - <a href="https://example.com/trinhthim" target="_blank">Bài tập</a></li>
-    </ul>
+
+    <h2>Lịch hoạt động CLB Thể thao</h2>
+
+    <table>
+        <tr>
+            <th rowspan="2">Bộ môn</th>
+            <th rowspan="2">GV phụ trách</th>
+            <th colspan="5">Ngày</th>
+        </tr>
+        <tr>
+            <th>Thứ 2</th>
+            <th>Thứ 3</th>
+            <th>Thứ 4</th>
+            <th>Thứ 5</th>
+            <th>Thứ 6</th>
+        </tr>
+        <tr>
+            <td>Bóng đá</td>
+            <td>Thầy Khai</td>
+            <td>X</td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Bóng chuyền</td>
+            <td>Cô Lan</td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td>Bóng rổ</td>
+            <td>Thầy Vũ</td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Võ thuật</td>
+            <td>Thầy Hoàng - Karate</td>
+            <td>X</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Thầy Đức - Taekwondo</td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Thầy Thắng - Vovinam</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Bơi</td>
+            <td>Cô Bích</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+        </tr>
+    </table>
+    <h2>Giới thiệu các hoạt động ngoại khóa</h2> 
+<p> Trường THPT Quốc Thái có bề dày thành tích về học tập và các hoạt động thể 
+thao, văn nghệ của tỉnh. <br/> 
+Các câu lạc bộ ngoại khóa hoạt động sôi nổi và luôn được nhà trường tạo điều kiện để sinh hoạt. <br/> 
+Những năm qua, trường đạt nhiều thành tích trong các cuộc thi cấp huyện, tỉnh: 
+</p> 
+<p> 
+</p> 
+<ul type="disc"> 
+<li>3 HCV cấp tỉnh môn Bơi lội</li> 
+<li>2 HCV, 06 HCB và 05 HCĐ cấp tỉnh các môn Võ thuật</li> 
+<li>01 giải ba môn Bóng đá nam cấp tỉnh</li> 
+<li>01 giải nhì, 02 giải ba hội thi biểu diễn âm nhạc cấp tỉnh</li> 
+</ul> 
+<p><a href="#CLBTT">Theo dõi lịch hoạt động các CLB Thể thao</a></p> 
+<p><a href="thong_tin.html">Thông tin của các CLB</a></p> 
+<h2>Danh sách Câu lạc bộ</h2> 
+<ul type="disc"> 
+<li>THỂ THAO 
+<ol type="1"> 
+<li>Bóng đá</li> 
+<li>Bóng chuyên</li> 
+<li>Bóng ro</li> 
+<li>Võ 
+<ol type="a"> 
+<li>Karatedo</li> 
+<li>Taekwondo</li> 
+<li>Vovinam</li> 
+</ol> 
+</li> 
+</ol> 
+</li> 
+<li>NGHỆ THUẬT 
+<ol type="1"> 
+<li>Mỹ thuật</li> 
+<li>Nhiếp ảnh</li> 
+<li>Âm nhạc 
+<ol type="a"> 
+<li>Thanh nhạc</li> 
+<li>Piano</li> 
+<li>Violin</li> 
+</ol> 
+<li>Khiêu vũ</li> 
+<h2>  thực hành bài 16</h2>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng tên màu CSS</title>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .color-box {
+            width: 100px;
+            height: 20px;
+            display: inline-block;
+        }
+    </style>
+    <h2 style="text-align: center; color: red;">Bảng tên màu CSS</h2>
+
+    <table>
+        <tr>
+            <th>Tên màu</th>
+            <th>Hex</th>
+            <th>RGB (r,g,b)</th>
+            <th>Thể hiện</th>
+        </tr>
+        <tr>
+            <td>black</td>
+            <td>#000000</td>
+            <td>rgb(0,0,0)</td>
+            <td><span class="color-box" style="background-color: black;"></span></td>
+        </tr>
+        <tr>
+            <td>silver</td>
+            <td>#C0C0C0</td>
+            <td>rgb(192,192,192)</td>
+            <td><span class="color-box" style="background-color: silver;"></span></td>
+        </tr>
+        <tr>
+            <td>white</td>
+            <td>#FFFFFF</td>
+            <td>rgb(255,255,255)</td>
+            <td><span class="color-box" style="background-color: white; border: 1px solid black;"></span></td>
+        </tr>
+        <tr>
+            <td>maroon</td>
+            <td>#800000</td>
+            <td>rgb(128,0,0)</td>
+            <td><span class="color-box" style="background-color: maroon;"></span></td>
+        </tr>
+        <tr>
+            <td>red</td>
+            <td>#FF0000</td>
+            <td>rgb(255,0,0)</td>
+            <td><span class="color-box" style="background-color: red;"></span></td>
+        </tr>
+        <tr>
+            <td>purple</td>
+            <td>#800080</td>
+            <td>rgb(128,0,128)</td>
+            <td><span class="color-box" style="background-color: purple;"></span></td>
+        </tr>
+        <tr>
+            <td>fuchsia</td>
+            <td>#FF00FF</td>
+            <td>rgb(255,0,255)</td>
+            <td><span class="color-box" style="background-color: fuchsia;"></span></td>
+        </tr>
+        <tr>
+            <td>green</td>
+            <td>#008000</td>
+            <td>rgb(0,128,0)</td>
+            <td><span class="color-box" style="background-color: green;"></span></td>
+        </tr>
+        <tr>
+            <td>lime</td>
+            <td>#00FF00</td>
+            <td>rgb(0,255,0)</td>
+            <td><span class="color-box" style="background-color: lime;"></span></td>
+        </tr>
+        <tr>
+            <td>yellow</td>
+            <td>#FFFF00</td>
+            <td>rgb(255,255,0)</td>
+            <td><span class="color-box" style="background-color: yellow;"></span></td>
+        </tr>
+        <tr>
+            <td>navy</td>
+            <td>#000080</td>
+            <td>rgb(0,0,128)</td>
+            <td><span class="color-box" style="background-color: navy;"></span></td>
+        </tr>
+        <tr>
+            <td>blue</td>
+            <td>#0000FF</td>
+            <td>rgb(0,0,255)</td>
+            <td><span class="color-box" style="background-color: blue;"></span></td>
+        </tr>
+        <tr>
+            <td>teal</td>
+            <td>#008080</td>
+            <td>rgb(0,128,128)</td>
+            <td><span class="color-box" style="background-color: teal;"></span></td>
+        </tr>
+        <tr>
+            <td>aqua</td>
+            <td>#00FFFF</td>
+            <td>rgb(0,255,255)</td>
+            <td><span class="color-box" style="background-color: aqua;"></span></td>
+        </tr>
+        <tr>
+            <td>orange</td>
+            <td>#FFA500</td>
+            <td>rgb(255,165,0)</td>
+            <td><span class="color-box" style="background-color: orange;"></span></td>
+        </tr>
+    </table>
+
+    <p style="text-align: center;"><strong>Hình 16.5. Bảng 16 tên màu cơ bản</strong></p>
+
+<h3> thực hành bài 17</h3>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu HTML và CSS</title>
+    <style>
+      .body
+      {
+            font-family: Arial, sans-serif;
+            background-color: #E6F0FA;
+            padding: 20px;
+        }
+        .container {
+            width: 70%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: black;
+        }
+        h2 {
+            color: blue;
+        }
+        p {
+            text-align: justify;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Giới thiệu HTML và CSS</h1>
+
+        <h2>Giới thiệu HTML</h2>
+
+        <h2>Giới thiệu CSS</h2>
+
+        <h3>HTML là gì</h3>
+        <p>
+            HTML – tên viết tắt của HyperText Markup Language, ngôn ngữ đánh dấu siêu văn bản, là ngôn ngữ đặc biệt dùng để thiết kế nội dung các trang web và được thể hiện bằng trình duyệt.
+            Cấu trúc mỗi tệp HTML là một cấu trúc dạng cây của các phần tử HTML.
+        </p>
+
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo">
+            <p>Xem logo của HTML.</p>
+        </div>
+
+        <p>Link xem thêm chi tiết về HTML tại đây: 
+            <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Wikipedia HTML</a>.
+        </p>
+        <p>Link xem và tự học HTML tại đây: 
+            <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools HTML</a>.
+        </p>
+
+        <h3>CSS là gì</h3>
+        <p>
+            CSS (Cascading Style Sheets) là ngôn ngữ định dạng đặc biệt được dùng để mô tả cách thể hiện của văn bản HTML trong trang web.
+            Mỗi định dạng CSS đều có dạng chuẩn là bộ chọn {thuộc tính: giá trị;}.
+        </p>
+
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo_and_wordmark.svg" alt="CSS Logo">
+            <p>Xem logo của CSS.</p>
+        </div>
+
+        <p>Link xem thêm chi tiết về CSS tại đây: 
+            <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">Wikipedia CSS</a>.
+        </p>
+        <p>Link xem và tự học CSS tại đây: 
+            <a href="https://www.w3schools.com/css/default.asp" target="_blank">W3Schools CSS</a>.
+        </p>
+    </div>
+
 </body>
 </html>
+
+
