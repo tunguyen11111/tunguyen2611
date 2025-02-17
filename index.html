@@ -3,81 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danh sách thành viên tổ 2</title>
+    <title>Danh sách Bài Tập của tổ 2</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h2 {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
             text-align: center;
-        }
-        ul {
-            list-style-type: none;
+            margin: 0;
             padding: 0;
         }
-        li {
-            background: white;
-            margin: 10px 0;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-        }
-        a {
-            text-decoration: none;
-            color: blue;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
         .banner {
-            background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
-            background-size: cover;
-            padding-top: 12rem;
-            padding-bottom: 12rem;
-            text-align: center !important;
-            color: darkred !important;
+            background: #007BFF;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
         }
-        .slogan {  
-            background-color: rgb(248, 249, 250) !important;
-            text-align: center !important;
-            width: 100%;
-            padding-right: 0.5rem;
-            padding-left: 3rem;
-            padding-top: 7rem;
-            padding-bottom: 7rem;
+        .slogan {
+            font-size: 18px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .container:hover {
+            transform: scale(1.05);
         }
         .row {
             display: flex;
             flex-wrap: wrap;
-            margin-top: -1;
-            max-width: 100%;
-            padding-right: 3rem;
-            padding-left: 3rem;
+            justify-content: space-between;
         }
         .block_3 {
-            flex: 00 auto;
-            width: 33.33333333%;
+            width: 30%;
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            background: #007BFF;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.2s;
+        }
+        a:hover {
+            background: #0056b3;
+            transform: scale(1.1);
         }
     </style>
 </head>
 <body>
-    <h2>Danh sách thành viên tổ 2</h2>
-    <ul>
-        <li>1. Phạm Đình Dũng - <a href="./bai lam/khongnopbai.html" target="_blank">Bài tập</a></li>
-        <li>2. Đào Thị Quỳnh Như - <a href="./bai lam/quỳnh như.html" target="_blank">Bài tập</a></li>
-        <li>3. Đoàn Khả Ái Chi - <a href="./bai lam/ái chi.html" target="_blank">Bài tập</a></li>
-        <li>4. Nguyễn Nhật Anh - <a href="./bai lam/khongnopbai.html" target="_blank">Bài tập</a></li>
-        <li>5. Nông Thị Trà My  - <a href="./bai lam/Nông Thị Trà My 12B.html" target="_blank">Bài tập</a></li>
-        <li>6. Nguyễn Thị Trúc Giang - <a href="./bai lam/NGUYỄN THỊ TRÚC GIANG-12B.html" target="_blank">Bài tập</a></li>
-        <li>7. Nguyễn Tuấn Tú - <a href="./bai lam/tuantu.html" target="_blank">Bài tập</a></li>
-        <li>8. Đoàn Hà Phương - <a href="./bai lam/haphuong.html" target="_blank">Bài tập</a></li>
-        <li>9. Ngô Thế Nhật - <a href="./bai lam/thế nhật.html" target="_blank">Bài tập</a></li>
-        <li>10. Nguyễn Trần Song Giang - <a href="./bai lam/songgiang.html" target="_blank">Bài tập</a></li>
-        <li>11. Lê Trung Kiệt - <a href="./bai lam/trungkiet.html" target="_blank">Bài tập</a></li>
-        <li>12. Đỗ Lê Tường Vy - <a href="./bai lam/tường vy.html" target="_blank">Bài tập</a></li>
-    </ul>
+    <div class="banner">Danh sách Bài Tập của tổ 2</div>
+    <div class="slogan">Hãy chọn bài tập của bạn!</div>
+    <div class="container">
+        <div class="row">
+            <div class="block_3">
+                <ul>
+                    <li>1. Phạm Đình Dũng  <a href="./bai lam/khongnopbai.html" target="_blank">Bài tập</a></li>
+                    <li>2. Đào Thị Quỳnh Như  <a href="./bai lam/quỳnh như.html" target="_blank">Bài tập</a></li>
+                    <li>3. Đoàn Khả Ái Chi  <a href="./bai lam/ái chi.html" target="_blank">Bài tập</a></li>
+                    <li>4. Nguyễn Nhật Anh  <a href="./bai lam/nhatanh.html" target="_blank">Bài tập</a></li>
+                </ul>
+            </div>
+            <div class="block_3">
+                <ul>
+                    <li>5. Nông Thị Trà My  <a href="./bai lam/Nông Thị Trà My 12B.html" target="_blank">Bài tập</a></li>
+                    <li>6. Nguyễn Thị Trúc Giang  <a href="./bai lam/NGUYỄN THỊ TRÚC GIANG-12B.html" target="_blank">Bài tập</a></li>
+                    <li>7. Nguyễn Tuấn Tú  <a href="./bai lam/tuantu.html" target="_blank">Bài tập</a></li>
+                    <li>8. Đoàn Hà Phương  <a href="./bai lam/haphuong.html" target="_blank">Bài tập</a></li>
+                </ul>
+            </div>
+            <div class="block_3">
+                <ul>
+                    <li>9. Ngô Thế Nhật  <a href="./bai lam/thế nhật.html" target="_blank">Bài tập</a></li>
+                    <li>10. Nguyễn Trần Song Giang  <a href="./bai lam/songgiang.html" target="_blank">Bài tập</a></li>
+                    <li>11. Lê Trung Kiệt  <a href="./bai lam/trungkiet.html" target="_blank">Bài tập</a></li>
+                    <li>12. Đỗ Lê Tường Vy  <a href="./bai lam/tường vy.html" target="_blank">Bài tập</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
